@@ -30,7 +30,35 @@
   -->
     <link rel="stylesheet" href="./assets/font/font.css" />
 
- 
+ <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/loading.svg" />
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg" />
+</head>
+
+<body class="active" id="top">
+  <!-- 
+  -#PRELOADING
+-->
+
+  <div class="loading" data-loading>
+    <img
+      src="./assets/images/loading.svg"
+      width="55"
+      height="55"
+      alt="loading"
+      class="img"
+    />
+    <img
+      src="./assets/images/loading-circle.svg"
+      width="70"
+      height="70"
+      alt=""
+      class="circle"
+    />
+  </div>
+
 
     <!-- 
     - #HEADER
