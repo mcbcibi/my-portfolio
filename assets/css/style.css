@@ -1830,3 +1830,15 @@ body.active {
     max-width: 1200px;
   }
 }
+
+.autom-img {
+  width: 800px;
+  height: 625px;
+}
+
+@media only screen and (max-width: 600px) {
+  .autom-img {
+    width: px !important;
+    height: 450px !important;
+  }
+}
