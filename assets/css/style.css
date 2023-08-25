@@ -1041,7 +1041,7 @@ body.active {
  * responsive for large than 575px screen
  */
 
-@media (min-width: 575px) {
+@media (min-width: 768px) {
   /**
    * CUSTOM PROPERTY
    */
@@ -1840,5 +1840,9 @@ body.active {
   .autom-img {
     width: px !important;
     height: 450px !important;
+  }
+  .idot {
+    width: 360px;
+    height: 360px;
   }
 }
