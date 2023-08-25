@@ -1838,8 +1838,8 @@ body.active {
 
 @media only screen and (max-width: 600px) {
   .autom-img {
-    width: px !important;
-    height: 450px !important;
+    width: 360 !important;
+    /* height: 450px !important; */
   }
   .idot {
     width: 360px;
